@@ -1,0 +1,62 @@
+/*
+ * Main Stylesheet
+ */
+
+/* Fonts */
+@import '//fonts.googleapis.com/css?family=Lato:100,300,400,700';
+@import '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css';
+
+body {
+  font: normal 400 14px/1.7 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+    background-color: #333333;
+    height: 100vh;
+}
+
+.site {
+    display: flex;
+    flex-direction: row;
+}
+
+.site > div {
+    flex: 1 1 50%;
+}
+
+.site h1 {
+    text-align: center;
+}
+.site .circle {
+    width: 200px;
+    height: 200px;
+    background: url('../images/Logo.svg') no-repeat;
+}
+
+.list li {
+    display: block;
+    height: 3em;
+    font-size: 1.5em;
+    line-height: 3em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
+    background-color: #999999
+}
+
+li a {
+
+}
+.list li i {
+    padding-left:  1em;
+    padding-right: 1em;
+
+}
+
+.container {
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+}
