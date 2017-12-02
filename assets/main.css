@@ -83,9 +83,12 @@ h1 {
     border-color: transparent;
     border-style: solid;
     border-width: 1px;
+    transition-duration: 0.3s;
 }
 
-.list a:hover {
+.list a:hover,
+.list a:focus,
+.list a:active{
     color: #e74c3c;
     border-color: #e74c3c;
 }
@@ -169,11 +172,17 @@ h1 {
     border-style: solid;
     border-width: 1px;
     border-radius: 3em;
+    transition-duration: 0.3s;
+    cursor: pointer;
     
 }
 
 .contact button:hover,
-.contact a.button:hover {
+.contact button:focus,
+.contact button:active,
+.contact a.button:hover,
+.contact a.button:focus,
+.contact a.button:active{
     background-color: #34495e;
     border-color: #e74c3c;
     color: #e74c3c;
